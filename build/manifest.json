@@ -1,0 +1,24 @@
+{
+	"name": "Telegram Focus",
+	"version": "1.0",
+	"description": "Removes all unwanted chats from Telegram Web",
+	"manifest_version": 2,
+	"permissions": [
+		"storage"
+	],
+	"content_scripts": [
+		{
+		  "matches": [
+			"https://web.telegram.org/"
+		  ],
+		  "js": ["content_script.js"]
+		}
+	],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"options_page": "options.html",
+	"icons": {
+		"128": "TFIcon.png"
+	}
+}
