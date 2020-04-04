@@ -1,0 +1,19 @@
+{
+  "name": "telegram-focus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "contentscript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack-extension-reloader": "^1.1.4"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}

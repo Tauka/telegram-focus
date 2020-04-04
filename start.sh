@@ -1,0 +1,1 @@
+NODE_ENV=development npx webpack --mode=development --watch
